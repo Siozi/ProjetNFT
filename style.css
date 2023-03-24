@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+@media (max-width:1440px)  {
+
+    body {
+        background-color: hsl(217, 54%, 11%);
+        width: 375px;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    html {
+        display:flex;
+        justify-content: center;
+    }
+    
+
+    #block {
+        position:absolute;
+        top: 16%;
+        left:7%;
+        width: 86%;
+        height: 68%;
+        background-color: hsl(216, 50%, 16%);
+        
+        border-radius: 1.5vh;
+    }
+
+   
+    #img {
+        position:relative;
+        width:100%;
+        height:40%;
+        padding-top: 2.5vh;
+        display:flex;
+        justify-content: center;
+    }
+
+
+    .ether {
+        z-index:1;
+        background-image:url('./images/image-equilibrium.jpg');
+        background-size:cover;
+
+        background-position: center;
+        
+        position:relative;
+        border: 2vh transparent;
+        border-radius: 2vh;
+        width: 90%;
+        height: 100%;
+        cursor:pointer;
+
+    }
+
+    .calque {
+        opacity:0;
+        background-color: #00FFF8;
+        position:absolute;
+        width:100%;
+        height:100%;
+        transition: opacity 0.1s linear, background-color 0.1s linear;
+        border-radius:2vh;
+    }
+    .calque:hover {
+        background-color: rgba(0, 255, 248, 0.4);
+        opacity:1;
+    }
+
+
+    .calque, .svg {
+        display:flex;
+
+        align-self: center;
+        justify-content: center;
+    }
+
+    .svg {
+        z-index:2;
+        position:absolute;
+
+
+
+        width:10vh;
+        height:10vh;
+
+        background-image:url('images/icon-view.svg');
+        background-size:cover;
+
+        cursor:pointer;
+    }
+
+    #structure {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2vh;
+      }
+
+
+    .description {
+        
+        padding-left: 3vh;
+        font-size: 18px;
+        font-weight: 300;
+        
+        color:hsl(219, 43%, 70%) ;
+        margin-top:3vh ;
+        margin-bottom: 3vh;
+             
+    }
+
+    h1 {
+        color: white;
+        font-weight: 600;
+        padding-left: 3vh;
+        
+    }
+
+    h1:hover {
+        color: #00FFF8;
+        cursor: pointer;
+    }
+
+    .eth {
+        display: flex;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .etherum {
+        color:hsl(178, 100%, 50%) ;
+        font-weight: 600;
+        padding-left: 3vh;
+        font-size: 18px;
+          
+    }
+
+    
+
+    .time {
+        font-weight: 600;
+        font-size: 18px;
+        font-style: bold;
+        color:hsl(219, 43%, 70%)  ;
+        margin-left: 8vh;
+        padding-right: 3vh;
+       
+    }
+    
+    #creator {
+        display:flex;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        position: relative;
+        border-top: 0.2vh solid hsl(215, 32%, 27%) ;
+        align-items: center;
+        justify-content: flex-start;  
+          
+    }
+
+    #creator p {
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 1vh;
+        color: hsl(219, 43%, 70%);
+
+    }
+
+    
+    .photo img {
+        width: 4vh;
+        border-radius: 50%;
+        border: 4px solid white;
+        position: relative;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+       
+    }
+
+    .jules {
+        color: white;
+    }
+
+    .jules:hover {
+        color: #00FFF8;
+        cursor: pointer;
+    }
+
+    .attribution {
+        position:absolute;
+        bottom:10vh;
+
+        width:100%;
+        height:auto;
+    }
+
+    .attribution_ {
+        position:relative;
+        text-align: center;
+        display:block;
+        animation: colored 3s linear infinite;
+    }
+
+}
+    
+
+
+
+@media (min-width:1440px)  { 
+
+    html {
+        display:flex;
+        justify-content: center;
+    }
+    
+
+    body {
+        background-color: hsl(217, 54%, 11%);
+        width: 1440px;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    #block {
+        margin: auto;
+        margin-top: 10%;
+        width: 40vh;
+        height: 70vh;
+        background-color: hsl(216, 50%, 16%);
+        
+        border-radius: 1.5vh;
+    }
+
+   
+    #img {
+        position:relative;
+        width:100%;
+        height:50%;
+        padding-top: 2.5vh;
+        display:flex;
+        justify-content: center;
+    }
+
+
+    .ether {
+        z-index:1;
+        background-image:url('./images/image-equilibrium.jpg');
+        background-size:cover;
+        
+        position:relative;
+        border: 2vh transparent;
+        border-radius: 2vh;
+        width: 90%;
+        height: 100%;
+        cursor:pointer;
+
+    }
+
+    .calque {
+        opacity:0;
+        background-color: #00FFF8;
+        position:absolute;
+        width:100%;
+        height:100%;
+        transition: opacity 0.1s linear, background-color 0.1s linear;
+        border-radius:2vh;
+    }
+    .calque:hover {
+        background-color: rgba(0, 255, 248, 0.4);
+        opacity:1;
+    }
+
+
+    .calque, .svg {
+        display:flex;
+
+        align-self: center;
+        justify-content: center;
+    }
+
+    .svg {
+        z-index:2;
+        position:absolute;
+
+
+
+        width:10vh;
+        height:10vh;
+
+        background-image:url('images/icon-view.svg');
+        background-size:cover;
+
+        cursor:pointer;
+    }
+
+    #structure {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2vh;
+      }
+
+
+    .description {
+        
+        padding-left: 3vh;
+        font-size: 18px;
+        font-weight: 300;
+        text-justify: auto;
+        color:hsl(219, 43%, 70%) ;
+        margin-right: 15vh;
+        margin-top:3vh ;
+        margin-bottom: 3vh;
+             
+    }
+
+    h1 {
+        color: white;
+        font-weight: 600;
+        padding-left: 3vh;
+        
+    }
+
+    h1:hover {
+        color: #00FFF8;
+        cursor: pointer;
+    }
+
+    .eth {
+        display: flex;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .etherum {
+        color:hsl(178, 100%, 50%) ;
+        font-weight: 600;
+        padding-left: 3vh;
+        font-size: 18px;
+          
+    }
+
+    
+
+    .time {
+        font-weight: 600;
+        font-size: 18px;
+        font-style: bold;
+        color:hsl(219, 43%, 70%)  ;
+        margin-left: 18vh;
+        padding-right: 3vh;
+       
+    }
+    
+    #creator {
+        display:flex;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        position: relative;
+        border-top: 0.2vh solid hsl(215, 32%, 27%) ;
+        align-items: center;
+        justify-content: flex-start;    
+    }
+
+    #creator p {
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 3vh;
+        color: hsl(219, 43%, 70%);
+
+    }
+
+    
+    .photo img {
+        width: 6vh;
+        border-radius: 50%;
+        border: 4px solid white;
+        position: relative;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+       
+    }
+
+    .jules {
+        color: white;
+    }
+
+    .jules:hover {
+        color: #00FFF8;
+        cursor: pointer;
+    }
+
+    .attribution {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:1vh;
+        width: 400px;
+        animation:colored 3s linear infinite;
+    }
+
+}
+
+@keyframes colored
+{
+    0%
+    {
+        color:white;
+    }
+    50%
+    {
+        color:#FFD700;
+    }
+    100%
+    {
+        color:white;
+    }
+}
